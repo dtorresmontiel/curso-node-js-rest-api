@@ -1,0 +1,42 @@
+### CRUD List of movies
+GET http://localhost:1234/movies
+
+### CRUD Recover movie info
+GET http://localhost:1234/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+
+### Movie not found by ID
+GET http://localhost:1234/movies/66666666
+
+### Get all the movies for a category
+GET http://localhost:1234/movies?genre=Crime
+
+### Get movies not found for a category
+GET http://localhost:1234/movies?genre=Terror
+
+### CRUD Create a new movie
+POST http://localhost:1234/movies
+Content-Type: application/json
+
+{
+  "title": "La cucaracha verde",
+  "year": 1975,
+  "director": "Aiken Fdez",
+  "duration": 180,
+  "poster": "https://img.fruugo.com/product/4/49/14441494.jpg",
+  "genre": ["Crime", "Drama", "Sci-Fi"]
+}
+
+### CRUD Update movie info
+PATCH http://localhost:1234/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+Content-Type: application/json
+
+{
+  "director": "Frank DarabontDonBas"
+}
+
+### CRUD Delete movie
+DELETE http://localhost:1234/movies/c8a7d63f-3b04-44d3-9d95-8782fd7dcfaf
+
+### CRUD Delete movie
+DELETE http://localhost:1234/movies/66666
+

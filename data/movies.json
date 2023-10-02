@@ -1,0 +1,40 @@
+[
+  {
+    "id": "dcdd0fad-a94c-4810-8acc-5f108d3b18c3",
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "director": "Frank DarabontDonBas",
+    "duration": 142,
+    "rate": 9.3,
+    "poster": "https://i.ebayimg.com/images/g/4goAAOSwMyBe7hnQ/s-l1200.webp",
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "title": "La serpiente negra",
+    "year": 1975,
+    "director": "Aiken Fdez",
+    "duration": 180,
+    "poster": "https://img.fruugo.com/product/4/49/14441494.jpg",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "id": "3d513240-09a9-4eb3-976c-7b48e06eb872"
+  },
+  {
+    "title": "La cucaracha verde",
+    "year": 1975,
+    "director": "Aiken Fdez",
+    "duration": 180,
+    "poster": "https://img.fruugo.com/product/4/49/14441494.jpg",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "id": "1c17c1b5-201b-4622-93dd-15616c68c13e"
+  }
+]

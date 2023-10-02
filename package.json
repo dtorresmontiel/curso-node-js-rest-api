@@ -1,0 +1,35 @@
+{
+  "name": "curso-node-js-rest-api",
+  "version": "1.0.0",
+  "description": "Rest API del curso de NodeJS",
+  "main": "app.mjs",
+  "scripts": {
+    "start": "nodejs app.mjs",
+    "dev": "nodemon app.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtorresmontiel/curso-node-js-rest-api.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "nodejs"
+  ],
+  "author": "David Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dtorresmontiel/curso-node-js-rest-api/issues"
+  },
+  "homepage": "https://github.com/dtorresmontiel/curso-node-js-rest-api#readme",
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.18.2",
+    "zod": "3.22.2"
+  },
+  "devDependencies": {
+    "nodemon": "3.0.1",
+    "semistandard": "17.0.0"
+  }
+}
